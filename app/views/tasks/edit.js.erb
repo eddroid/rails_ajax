@@ -1,0 +1,4 @@
+$(".modal-footer .btn-primary").show();
+$('.modal-title').html("Edit Task");
+$('.modal-body').html("<%= j render 'form', task: @task %>");
+$('.modal').modal();
